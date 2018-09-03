@@ -1,14 +1,15 @@
 {
-  "name": "test",
+  "name": "bathroom",
   "version": "1.0.0",
-  "description": "tidy numbers",
-  "main": "index.js",
+  "description": "",
+  "main": "bathroom.stalls.js",
   "scripts": {
+    "bathroom": "node bathroom.stalls/bathroom.stalls.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fs": "0.0.1-security"
+    "big-integer": "1.6.34"
   }
 }
